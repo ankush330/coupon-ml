@@ -1,0 +1,101 @@
+text,label,is_upto,is_flat,is_percent,max_amount,max_percent,min_order,value_ratio,expected_value
+flat rs.200 cashback on orders above rs.999,FLAT_CASHBACK,0,1,0,200,0,999,0.2002,190.0
+flat rs.100 guaranteed cashback on minimum order rs.499,FLAT_CASHBACK,0,1,0,100,0,0,0.0,95.0
+instant rs.50 cashback on recharge above rs.199,FLAT_CASHBACK,0,1,0,50,0,199,0.2513,47.5
+flat rs.75 cashback on movie tickets above rs.250,FLAT_CASHBACK,0,1,0,75,0,250,0.3,71.25
+flat rs.500 cashback on electronics above rs.2999,FLAT_CASHBACK,0,1,0,500,0,2999,0.1667,475.0
+instant rs.150 cashback on bus tickets above rs.300,FLAT_CASHBACK,0,1,0,150,0,300,0.5,142.5
+flat rs.50 cashback on every order above rs.199,FLAT_CASHBACK,0,1,0,50,0,199,0.2513,47.5
+guaranteed rs.250 cashback on hotel bookings above rs.1500,FLAT_CASHBACK,0,1,0,250,0,1500,0.1667,237.5
+flat rs.300 cashback on flights above rs.2000,FLAT_CASHBACK,0,1,0,300,0,2000,0.15,285.0
+instant rs.100 cashback on first order no minimum,FLAT_CASHBACK,0,1,0,100,0,0,0.0,95.0
+flat rs.400 cashback on laptop above rs.30000,FLAT_CASHBACK,0,1,0,400,0,30000,0.0133,380.0
+guaranteed rs.80 cashback on grocery above rs.600,FLAT_CASHBACK,0,1,0,80,0,600,0.1333,76.0
+flat rs.60 cashback on medicines above rs.300,FLAT_CASHBACK,0,1,0,60,0,300,0.2,57.0
+instant rs.200 cashback on clothing above rs.1200,FLAT_CASHBACK,0,1,0,200,0,1200,0.1667,190.0
+flat rs.350 cashback on mobile above rs.8000,FLAT_CASHBACK,0,1,0,350,0,8000,0.0437,332.5
+guaranteed rs.120 cashback on food orders above rs.500,FLAT_CASHBACK,0,1,0,120,0,500,0.24,114.0
+flat rs.90 cashback on books above rs.400,FLAT_CASHBACK,0,1,0,90,0,400,0.225,85.5
+instant rs.250 cashback on shoes above rs.1500,FLAT_CASHBACK,0,1,0,250,0,1500,0.1667,237.5
+flat rs.700 cashback on ac above rs.25000,FLAT_CASHBACK,0,1,0,700,0,25000,0.028,665.0
+guaranteed rs.45 cashback on coffee above rs.200,FLAT_CASHBACK,0,1,0,45,0,200,0.225,42.75
+flat rs.180 cashback on sports gear above rs.999,FLAT_CASHBACK,0,1,0,180,0,999,0.1802,171.0
+instant rs.320 cashback on watches above rs.2000,FLAT_CASHBACK,0,1,0,320,0,2000,0.16,304.0
+flat rs.150 cashback on toys above rs.800,FLAT_CASHBACK,0,1,0,150,0,800,0.1875,142.5
+guaranteed rs.500 cashback on tv above rs.15000,FLAT_CASHBACK,0,1,0,500,0,15000,0.0333,475.0
+flat rs.25 cashback on ice cream above rs.100,FLAT_CASHBACK,0,1,0,25,0,100,0.25,23.75
+get upto rs.500 cashback on your first order,UPTO_CASHBACK,1,0,0,500,0,0,0.0,150.0
+upto rs.150 cashback on food orders above rs.300,UPTO_CASHBACK,1,0,0,150,0,300,0.5,45.0
+maximum rs.300 off on fashion orders,UPTO_CASHBACK,1,0,0,300,0,0,0.0,90.0
+get rs.100 back on grocery orders above rs.500,FLAT_CASHBACK,0,0,0,100,0,500,0.2,95.0
+upto rs.1000 cashback on flights above rs.5000,UPTO_CASHBACK,1,0,0,1000,0,5000,0.2,300.0
+upto rs.80 off on medicines above rs.400,UPTO_CASHBACK,1,0,0,80,0,400,0.2,24.0
+upto rs.200 off on restaurant orders above rs.599,UPTO_CASHBACK,1,0,0,200,0,599,0.3339,60.0
+get upto rs.400 cashback on electronics above rs.2000,UPTO_CASHBACK,1,0,0,400,0,2000,0.2,120.0
+upto rs.600 cashback on hotel bookings above rs.3000,UPTO_CASHBACK,1,0,0,600,0,3000,0.2,180.0
+maximum rs.250 cashback on mobile recharge above rs.499,UPTO_CASHBACK,1,0,0,250,0,499,0.501,75.0
+upto rs.900 cashback on international flights above rs.8000,UPTO_CASHBACK,1,0,0,900,0,8000,0.1125,270.0
+get upto rs.120 cashback on food delivery above rs.299,UPTO_CASHBACK,1,0,0,120,0,299,0.4013,36.0
+upto rs.350 off on clothing above rs.1500,UPTO_CASHBACK,1,0,0,350,0,1500,0.2333,105.0
+maximum rs.180 cashback on bus tickets above rs.400,UPTO_CASHBACK,1,0,0,180,0,400,0.45,54.0
+upto rs.750 cashback on laptops above rs.20000,UPTO_CASHBACK,1,0,0,750,0,20000,0.0375,225.0
+get upto rs.90 off on medicines above rs.250,UPTO_CASHBACK,1,0,0,90,0,250,0.36,27.0
+upto rs.2000 cashback on holiday packages above rs.10000,UPTO_CASHBACK,1,0,0,2000,0,10000,0.2,600.0
+maximum rs.300 off on shoes above rs.1200,UPTO_CASHBACK,1,0,0,300,0,1200,0.25,90.0
+upto rs.450 cashback on watches above rs.3000,UPTO_CASHBACK,1,0,0,450,0,3000,0.15,135.0
+get upto rs.60 cashback on grocery above rs.300,UPTO_CASHBACK,1,0,0,60,0,300,0.2,18.0
+upto rs.1500 cashback on cameras above rs.12000,UPTO_CASHBACK,1,0,0,1500,0,12000,0.125,450.0
+maximum rs.200 off on books above rs.600,UPTO_CASHBACK,1,0,0,200,0,600,0.3333,60.0
+upto rs.550 cashback on sports equipment above rs.2500,UPTO_CASHBACK,1,0,0,550,0,2500,0.22,165.0
+get upto rs.130 off on coffee orders above rs.400,UPTO_CASHBACK,1,0,0,130,0,400,0.325,39.0
+upto rs.800 cashback on washing machine above rs.10000,UPTO_CASHBACK,1,0,0,800,0,10000,0.08,240.0
+flat 10% cashback on all orders no minimum,FLAT_PERCENT,0,1,1,0,10,0,0.0,50.0
+flat 15% cashback on beauty products above rs.400,FLAT_PERCENT,0,1,1,400,15,400,1.0,75.0
+flat 5% cashback on grocery orders above rs.500,FLAT_PERCENT,0,1,1,500,5,500,1.0,25.0
+flat 20% off on clothing above rs.999,FLAT_PERCENT,0,1,1,999,20,999,1.0,199.8
+flat 12% cashback on electronics above rs.2000,FLAT_PERCENT,0,1,1,2000,12,2000,1.0,240.0
+flat 8% cashback on medicines no minimum,FLAT_PERCENT,0,1,1,0,8,0,0.0,40.0
+flat 25% off on first order above rs.299,FLAT_PERCENT,0,1,1,299,25,299,1.0,125.0
+flat 18% cashback on hotel bookings above rs.2000,FLAT_PERCENT,0,1,1,2000,18,2000,1.0,360.0
+flat 10% off on flight bookings above rs.3000,FLAT_PERCENT,0,1,1,3000,10,3000,1.0,300.0
+flat 6% cashback on recharge above rs.99,FLAT_PERCENT,0,1,1,99,6,99,1.0,30.0
+flat 22% off on shoes above rs.1000,FLAT_PERCENT,0,1,1,1000,22,1000,1.0,220.0
+flat 14% cashback on food orders above rs.300,FLAT_PERCENT,0,1,1,300,14,300,1.0,70.0
+flat 9% off on books above rs.200,FLAT_PERCENT,0,1,1,200,9,200,1.0,45.0
+flat 30% cashback on toys above rs.500,FLAT_PERCENT,0,1,1,500,30,500,1.0,150.0
+flat 11% off on sports gear above rs.800,FLAT_PERCENT,0,1,1,800,11,800,1.0,88.0
+flat 16% cashback on watches above rs.1500,FLAT_PERCENT,0,1,1,1500,16,1500,1.0,240.0
+flat 7% off on grocery above rs.400,FLAT_PERCENT,0,1,1,400,7,400,1.0,35.0
+flat 20% cashback on mobile accessories above rs.300,FLAT_PERCENT,0,1,1,300,20,300,1.0,100.0
+flat 13% off on travel bookings above rs.2000,FLAT_PERCENT,0,1,1,2000,13,2000,1.0,260.0
+flat 17% cashback on laptops above rs.15000,FLAT_PERCENT,0,1,1,15000,17,15000,1.0,2550.0
+flat 5% off on bus tickets above rs.150,FLAT_PERCENT,0,1,1,150,5,150,1.0,25.0
+flat 28% cashback on sunglasses above rs.800,FLAT_PERCENT,0,1,1,800,28,800,1.0,224.00000000000003
+flat 10% off on headphones above rs.500,FLAT_PERCENT,0,1,1,500,10,500,1.0,50.0
+flat 19% cashback on gym equipment above rs.2000,FLAT_PERCENT,0,1,1,2000,19,2000,1.0,380.0
+flat 8% off on pet supplies above rs.300,FLAT_PERCENT,0,1,1,300,8,300,1.0,40.0
+get upto 30% off on electronics above rs.2000,UPTO_PERCENT,1,0,1,2000,30,2000,1.0,180.0
+upto 50% off on travel bookings above rs.3000,UPTO_PERCENT,1,0,1,3000,50,3000,1.0,450.0
+upto 40% off on clothing above rs.1000,UPTO_PERCENT,1,0,1,1000,40,1000,1.0,120.0
+get upto 25% cashback on food orders above rs.299,UPTO_PERCENT,1,0,1,299,25,299,1.0,37.5
+upto 60% off on fashion above rs.999,UPTO_PERCENT,1,0,1,999,60,999,1.0,179.82
+maximum 35% off on hotel bookings above rs.2500,UPTO_PERCENT,1,0,1,2500,35,2500,1.0,262.5
+upto 45% cashback on electronics above rs.5000,UPTO_PERCENT,1,0,1,5000,45,5000,1.0,675.0
+get upto 20% off on grocery above rs.500,UPTO_PERCENT,1,0,1,500,20,500,1.0,30.0
+upto 55% off on shoes above rs.1500,UPTO_PERCENT,1,0,1,1500,55,1500,1.0,247.50000000000003
+maximum 30% cashback on medicines above rs.300,UPTO_PERCENT,1,0,1,300,30,300,1.0,45.0
+upto 70% off on books above rs.400,UPTO_PERCENT,1,0,1,400,70,400,1.0,105.0
+get upto 15% cashback on recharge above rs.199,UPTO_PERCENT,1,0,1,199,15,199,1.0,22.5
+upto 40% off on toys above rs.600,UPTO_PERCENT,1,0,1,600,40,600,1.0,72.0
+maximum 25% cashback on bus tickets above rs.250,UPTO_PERCENT,1,0,1,250,25,250,1.0,37.5
+upto 35% off on watches above rs.2000,UPTO_PERCENT,1,0,1,2000,35,2000,1.0,210.0
+get upto 50% cashback on first order above rs.499,UPTO_PERCENT,1,0,1,499,50,499,1.0,75.0
+upto 20% off on pet supplies above rs.300,UPTO_PERCENT,1,0,1,300,20,300,1.0,30.0
+maximum 45% off on gym equipment above rs.1500,UPTO_PERCENT,1,0,1,1500,45,1500,1.0,202.5
+upto 30% cashback on mobile above rs.8000,UPTO_PERCENT,1,0,1,8000,30,8000,1.0,720.0
+get upto 65% off on sunglasses above rs.500,UPTO_PERCENT,1,0,1,500,65,500,1.0,97.5
+upto 25% off on headphones above rs.700,UPTO_PERCENT,1,0,1,700,25,700,1.0,52.5
+maximum 40% cashback on laptops above rs.20000,UPTO_PERCENT,1,0,1,20000,40,20000,1.0,2400.0
+upto 15% off on coffee above rs.200,UPTO_PERCENT,1,0,1,200,15,200,1.0,22.5
+get upto 55% off on sports gear above rs.1000,UPTO_PERCENT,1,0,1,1000,55,1000,1.0,165.0
+upto 35% cashback on holiday packages above rs.5000,UPTO_PERCENT,1,0,1,5000,35,5000,1.0,525.0
